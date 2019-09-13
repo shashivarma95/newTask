@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+<body>
+    <section class="myDos">
+        <h2 style="color: rgb(92, 8, 8)">Create Your Targets ToDo</h2>
+        <input type="text" id="myInput" placeholder="Create Your List">
+        <span onclick="myList()" class="btn">+Add</span>
+        <span id="empty" style="color: red"></span>
+    </section>
+
+    <ol id="addList">
+        <p style="height: 5px; margin: 5px 0 15px 0">Your List: </p>
+        <li class="done" style="display: none"></li>
+        
+      </ol>
+      
+      <script src="myMain.js"></script>
+      
+      
+</body>
+</html>
